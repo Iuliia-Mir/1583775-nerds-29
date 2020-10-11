@@ -1,0 +1,160 @@
+/* Variables */
+
+:root {
+  --basic-black: #000000;
+  --basic-white: #FFFFFF;
+  --basic-red: #FB565A;
+  --basic-green: #00CA74;
+  --basic-yellow: #EFC849;
+  --basic-grey: #EEEEEE;
+}
+
+/* Global */
+
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  color: var(--basic-black);
+  text-transform: uppercase;
+  background-color: var(--basic-grey);
+  background-image: url("");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Main navigation */
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--basic-grey);
+  background-color: transparent;
+}
+
+.main-navigation-wrapper {
+  background-color: var(--basic-black);
+}
+.site-navigation {
+  list-style: none;
+}
+.site-navigation-current a:not([href]) {
+  background-color: var(--basic-grey);
+}
+
+/* User navigation */
+
+
+.site-navigation a,
+.user-navigation a {
+  color: var(--basic-black);
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  background-color: var(--basic-black);
+}
+
+/* description */
+.description {
+  text-align: left;
+}
+
+
+/* services */
+
+.services-list {
+  list-style: none;
+}
+
+.services-item {
+  text-align: left;
+}
+
+.services-item h3 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+
+/*work-types*/
+.work-types{}
+
+/*body-logo*/
+.body-logo{}
+
+/*features*/
+.features{}
+.features-list{}
+.features-list{}
+
+  /* Button */
+
+.button {
+  font: inherit;
+  text-align: center;
+  color: var(--basic-white);
+  vertical-align: middle;
+  text-transform: uppercase;
+  border: none;
+}
+.button:hover,
+.button:focus,
+.button:active {
+}
+
+.button.disabled,
+.button:disabled {
+cursor: default;
+opacity: 0.5;
+}
+
+/*examples*/
+.examples{}
+
+
+/*contacts*/
+.contacts{}
+
+
+/*map*/
+.map{}
+
+/*footer-social*/
+.footer-social{
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.footer-social h3 {
+  font-size: 36px;
+}
+
+/*social-button*/
+.social-button{
+  .social-button {
+  color: inherit;
+}
+
+.social-button:hover,
+.social-button:focus {
+  background-color: var(--basic-white);
+}
