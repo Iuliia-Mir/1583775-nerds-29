@@ -6,130 +6,158 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
     rel="stylesheet">
     <!--<link href="normalize.css" rel="stylesheet">-->
-    <link href="style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
 
   <body class="page-body">
 
     <header class="main-header">
+
         <nav class="main-navigation">
            <a class="main-header-logo">
-            <img src="https://via.placeholder.com/"
-           height="65.02" width="159.87" alt="nerds">
-           </a>
+            <img src="img/nerds-logo.svg"
+           width="159.87" height="65.02" alt="nerds-logo">
+            </a>
+            <div class="main-navigation-wrapper">
+          <div class="container">
          <ul class="site-navigation">
          <li> <a href="">Студия</a></li>
          <li> <a href="">Клиенты</a></li>
          <li> <a href="">Магазин</a></li>
          <li> <a href="">Контакты</a></li>
         </ul>
+        <div class= "user-navigation">
         <a class="basket-link" href="">Корзина</a>
-        </nav>
+        <img src="img/cart-icon.png" width="15" height="15" alt="cart-icon">
+        </div>
+        </div>
+      </div>
+      </nav>
         </header>
 
-      <main>
-        <h1> Интернет-магазин "Nerds" </h1>
+      <main class="container">
+      <h1 class="visually-hidden"> Интернет-магазин Nerds </h1>
 <section class="description">
   <p> Долго, дорого,<br>
-      скрупулезно.
+      скрупулезно.</p>
   <p> Математически выверенный дизайн <br>
        для вашего сайта или мобильного приложения.</p>
+       <img src="img/nerds-index-slide1 1.png"
+      width="760" height="431" alt="nerds-index-slide">
   <a class="button" href="">Узнать больше</a>
 </section>
 
-        <section class="services">
 
-          <h2> Услуги </h2>
+
+        <section class="services">
         <ul class="services-list">
           <li class="services-item">
+            <img src="img/illustration-1 1.svg" width="300" height="146" alt="illustration-1 1">
             <h3>Веб-сайты</h3>
-            <p> Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+            <p> Мир никогда не будет прежним <br> после того как увидит ваш сайт!</p>
           </li>
           <a class="button" href="">Заказать</a>
           <li class="services-item">
+            <img src="img/illustration-2 1.svg" width="300" height="146" alt="illustration-2 1">
             <h3>Приложения</h3>
-            <p> Покорите топ-10 приложений в AppStore и GooglePlay</p>
+            <p> Покорите топ-10 приложений <br> в AppStore и Google Play</p>
           </li>
           <a class="button" href="">Заказать</a>
           <li class="services-item">
+            <img src="img/illustration-3 1.svg" width="300" height="146" alt="illustration-3 1">
             <h3>Презентации</h3>
-            <p> Вы даже не подозреваете, насколько вы изумительны!</p>
+            <p> Вы даже не подозреваете, <br> насколько вы изумительны!</p>
           </li>
           <a class="button" href="">Заказать</a>
         </ul>
       </section>
 
-      <section class="description">
+      <section class="additional-description">
+      <div class="column1">
         <p> Мы - маленькая, но гордая дизайн-студия из Краснодара </p>
-        <p> Исповедуем принципы минимализма и чистоты. Ставим математический расчет превышекреатива.
+      </div>
+        <div class="column2">
+         <p> Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива.
           Работаем не покладая рук, как роботы.</p>
-        </section>
-
-        <section class="work-types">
+          </div>
+          <div class="column3">
         <h3>Выполняем заказы на разработку:</h3>
         <ul class="work-types-list">
-         <li class="work-types-list">Веб-сайтов любой сложности</li>
-         <li class="work-types-list">Мобильных приложений для OS и Andriod</li>
-         <li class="work-types-list">Слайд-шоу и видео для корпоративных презентаций</li>
+         <li class="work-types-items">Веб-сайтов любой сложности</li>
+         <li class="work-types-items">Мобильных приложений для iOS и Andriod</li>
+         <li class="work-types-items">Слайд-шоу и видео для корпоративных презентаций</li>
         </ul>
+      </div>
+      <div class="column4">
+       <img src="img/nerds-illustration 1.png"
+        width="360" height="208" alt="nerds">
+       <div class="column5">
+       <h3>С 2004 года любим точность во всем: </h3>
+       <table class="features-table">
+      <tr>
+        <td>146%</td>
+        <td>100%</td>
+        <td>50%</td>
+      </tr>
+      <tr>
+        <td>Уровень <br>самоотдачи</br> </td>
+        <td>Соблюдение <br>сроков</br></td>
+        <td>Минимальная <br>предоплата</br></td>
+      </tr>
+    </table>
+  </div>
         </section>
 
-     <section class="body-logo">
-       <img src="https://via.placeholder.com/"
-       height="208" width="360" alt="nerds">
-     </section>
-
-       <section class="features">
-       <h3>С 2004 года любим точность во всём: </h3>
-       <ul class="features-list">
-        <li class="features-item">Уровень самоотдачи</li>
-        <li "features-item">Соблюдение сроков</li>
-        <li "features-item">Минимальная предоплата</li>
-      </ul>
-      <!--146% 100% 50% -->
-     </section>
-
      <section class="examples">
-       <!--Logos-->
+       <img src="img/logo-1 1.png" width="199" height="67.8" alt="logo-1 1">
+       <img src="img/logo-2 1.png" width="209" height="90" alt="logo-2 1">
+       <img src="img/logo-3 1.png" width="185" height="52" alt="logo-3 1">
+       <img src="img/logo-4 1.png" width="173" height="84" alt="logo-4 1">
         </section>
       </main>
 
 
 
-     <footer>
-       <section class="contacts">
-         <h2>Nerds design studio</h2>
-    <p>
-      191186, Санкт-Петербург,<br>
-      ул. Б. Конюшенная, д. 19/8<br>
-      тел. +7 (812) 275-75-75
-    </p>
-    <a class="button" href="">Напишите нам</a>
+     <footer class="page-footer main-footer">
+       <div class="container">
+       <section class="footer-contacts">
+         <h2>NЁrds design studio</h2>
+           <p>
+            191186, Санкт-Петербург,<br>
+            ул. Б. Конюшенная, д. 19/8<br>
+            тел. +7 (812) 275-75-75
+          </p>
+          <a class="button" href="">Напишите нам</a>
     <!-- Здесь будет форма обратной связи -->
-  </section>
+       </section>
 
-  <section class="map">
+
+    <section class="map">
+    <img src="img/map-marker.png" width="231" height="190" alt="vk-icon">
     <!-- Карта с отметкой-->
-  </section>
+    </section>
 
   <section class="footer-social">
     <h3>Давайте дружить, это выгодно!</h3>
     <p> Скидка 10% для друзей из социальных сетей</p>
     <ul>
       <li>
+        <img src="img/vk-icon.png" width="26.01" height="15" alt="vk-icon">
         <a class="social-button" href="">Вконтакте</a>
       </li>
       <li>
+        <img src="img/fb-icon.png" width="12" height="22" alt="fb-icon">
         <a class="social-button" href="">Фейсбук</a>
       </li>
       <li>
+        <img src="img/insta-icon.png" width="21" height="21" alt="insta-icon">
         <a class="social-button" href="">Инстаграм</a>
       </li>
     </ul>
+</section>
+</div>
 
-  </section>
-</body>
 </footer>
 
-
+</body>
 </html>
